@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new css layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .body{
+            background-color: black;
+        }
+        .container{
+            height: 500px;
+            width: 1000px;
+            background-color: yellow;
+            margin: auto;
+        }
+        .box1{
+            height: 20%;
+            width: 100%;
+            background-color: rgba(243, 72, 10, 0.863);
+            border: 2px solid white;
+        }
+        .box2{
+            height: 60%;
+            width: 100%;
+            border: 2px solid white;
+            display: flex;
+        }
+        .box3{
+            height: 20%;
+            width: 100%;
+            background-color: rgb(255, 153, 0);
+            border: 2px solid white;
+        }
+        .a{
+            height: 100%;
+            width: 30%;
+            background-color: rgb(255, 38, 0);
+            border: 2px solid white;
+        }
+        .b{
+            height: 100%;
+            width: 70%;
+            border: 2px solid white;
+        }
+        .b1{
+            height: 50%;
+            width: 100%;
+            border: 2px solid white;
+            background-color: darkred;
+        }
+        .b2{
+            height: 50%;
+            width: 100%;
+            border: 2px solid white;
+            display: flex;
+        }
+        .b11{
+            height: 100%;
+            width: 50%;
+            border: 2px solid white;
+            background-color: blueviolet;
+        }
+        .b22{
+            height: 100%;
+            width: 50%;
+            border: 2px solid white;
+            background-color: blueviolet;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2">
+            <div class="a"></div>
+            <div class="b">
+                <div class="b1"></div>
+                <div class="b2">
+                    <div class="b11"></div>
+                    <div class="b22"></div>
+                </div>
+            </div>
+        </div>
+        <div class="box3"></div>
+    </div>
+</body>
+</html>
