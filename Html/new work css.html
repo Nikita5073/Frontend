@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* a{
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        } */
+        .box{
+
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            margin: 50px;
+        /* overflow: hidden; */
+        /* overflow: scroll; */
+        /* overflow-y: scroll; */
+        /* overflow: auto; */
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            height: 500px;
+            width: 50%;
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            position: absolute;
+        }
+        .item:nth-child(1){
+            top: 0px;
+            background-color: red;
+            box-shadow:inset 0px 0px 50px orangered ,inset 0px 0px 50px blue;
+           
+        }
+        .item:nth-child(2){
+            right: 0px;
+            background-color: green;
+            box-shadow: 0px 0px 50px red , 0px 0px 50px blue;
+           
+        }
+        .item:nth-child(3){
+            left: 0px;
+            background-color: deeppink;
+            box-shadow: 0px 0px 50px green , 0px 0px 50px yellow;
+           
+        }
+        .item:nth-child(4){
+            bottom: 0px;
+            background-color: blue;
+            box-shadow:inset 0px 0px 50px red ,inset 0px 0px 50px blue;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <a href="">This is text</a>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Register</li>
+    </ul> -->
+
+
+    <!-- <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nesciunt quas sapiente ea eius non hic neque illo minima. Natus perspiciatis ullam modi quisquam consectetur perferendis aut enim dignissimos blanditiis debitis eius id quaerat vero obcaecati molestias minus numquam inventore cumque, repellat amet labore voluptatum. Optio sequi omnis, veritatis labore commodi laboriosam incidunt? Necessitatibus, fugit fuga? Asperiores, veritatis voluptatum temporibus rerum excepturi id harum ipsum fuga laborum eius iure consequuntur repellat esse accusantium. Perspiciatis omnis, a eligendi assumenda asperiores minima, nemo at placeat reiciendis voluptas doloribus deleniti enim repellendus eum iure dicta? Fugiat magni dolore, id iure molestias numquam vero.</div> -->
+
+
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+</html>
