@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         *{
             margin: 0px;
@@ -12,25 +13,28 @@
 
         }
         .portfolio{
-            height: 120vh;
+            height: 170vh;
             width: 100%;
-            border: 2px solid black;
+            /* border: 2px solid black; */
             display: flex;
         }
         .left{
             height: 100vh;
             width: 25%;
-            border: 1px solid black;
+            position: fixed;
         }
         .right{
-            height: 120vh;
+            height: 170vh;
             width: 75%;
             border: 1px solid black;
+            background-color: rgb(221, 221, 224);
+            position: absolute;
+            right: 0px;
         }
         .info-box{
-            height: 60%;
+            height: 70%;
             width: 70%;
-            border: 1px solid black;
+            
         }
         .img-box{
             height: 30%;
@@ -38,14 +42,17 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 1px solid black;
         }
         .image{
             height: 95%;
             width: 55%;
             margin-right: 33%;
             border-radius: 5px;
-            border: 1px solid black;
+           
+        }
+        .pic{
+            border-radius: 5px;
+            margin-top: 5px;
         }
         .detail-box{
             height: 70%;
@@ -53,7 +60,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 1px solid black;
         }
         .template{
             height: 80%;
@@ -65,8 +71,230 @@
         .headings{
             height: 10%;
             width: 100%;
+        }
+        .port-right{
+            height: 10%;
+            width: 100%;
             border: 1px solid black;
         }
+        .port-a{
+            height: 6%;
+            width: 50%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+        }
+        /* .a1{
+            height: 20%;
+            width: 50%;
+            border: 1px solid black;
+        } */
+        .three{
+            font-size: 2vh;
+            font-family: sans-serif;
+            color: black;
+        }
+        .a{
+            height: 50%;
+            width: 15%;
+            border: 1px solid black;
+            margin-left: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .b{
+            height: 50%;
+            width: 15%;
+            border: 1px solid black;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c{
+            height: 50%;
+            width: 25%;
+            border: 1px solid black;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .d{
+            height: 50%;
+            width: 25%;
+            border: 1px solid black;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .e{
+            height: 50%;
+            width: 15%;
+            border: 1px solid black;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .abc{
+            height: 120vh;
+            width: 98%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+        .HR{
+            height: 4%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .xyz{
+            height: 48%;
+            width: 30%;
+        }
+        .abc1{
+            height: 50%;
+            width: 100%;
+        }
+        .abc2{
+            height: 50%;
+            width: 100%;
+            background-color: white;
+        }
+        .page-link{
+            height: 5%;
+            width: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .page-no{
+            height: 75%;
+            width: 25%;
+            display: flex;
+            margin-top: 20px;
+        }
+        .link-box{
+            height: 100%;
+            width: 18%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .tab{
+            color: black;
+            font-family: sans-serif;
+            font-size: 80%;
+        }
+         .page-2{
+            height: 130vh;
+            width: 75%;
+            border: 1px solid black;
+            position: absolute;
+            right: 0px;
+            background-color: rgb(221, 221, 224);
+        } 
+        .photo-box{
+            height: 35%;
+            width: 100%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .photo1{
+            height: 90%;
+            width: 47%;
+            border: 1px solid black;
+        }
+        .photo2{
+            height: 90%;
+            width: 47%;
+            border: 1px solid black;
+        }
+        .content-box{
+            height: 16%;
+            width: 100%;
+            border: 1px solid black;
+        }
+        .abt-heading{
+            height: 25%;
+            width: 100%;
+            border: 1px solid black;
+        }
+        .content-heading{
+            height: 75%;
+            width: 100%;
+            border: 1px solid black;
+        }
+        .tech_skill{
+            height: 45%;
+            width: 100%;
+            border: 1px solid black;
+            /* margin-top: 10px; */
+        }
+        .skills{
+            height: 22%;
+            width: 100%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .skill{
+            height: 13%;
+            width: 100%;
+            border: 1px solid black;
+            display: flex;
+            align-items: end;
+        }
+        .t-s{
+            height: 60%;
+            width: 15%;
+            margin-left: 2%;
+        }
+        .range{
+            height: 80%;
+            width: 96%;
+        }
+        .header{
+            height: 50%;
+            width: 100%;
+        }
+        .rng{
+            height: 50%;
+            width: 100%;
+            display: flex;
+        }
+        .download{
+            height: 53%;
+            width: 24%;
+            border: 1px solid black;
+            margin-right: 50%;
+            background-color: #616161;
+            color: white;
+            font-family: sans-serif;
+        }
+        .page-3{
+            height: 100vh;
+            width: 75%;
+            border: 1px solid black;
+            position:absolute;
+            right: 0px;
+            /* background-color: rgb(221, 221, 224); */
+        } 
+        
+
+
+       
     </style>
 </head>
 <body>
@@ -75,24 +303,201 @@
             <div class="info-box">
                 <div class="img-box">
                     <div class="image">
-                        <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="" height="100%" width="100%">
+                        <img class="pic" src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="" height="100%" width="100%">
                     </div>
                 </div>
                 <div class="detail-box">
                     <div class="template">
                         <div class="headings">
-                            <h1></h1>
+                            <h1 style="font-family: sans-serif;font-weight: 400;font-size: 130%;">PORTFOLIO</h1>
                         </div>
-                        <div class="headings"></div>
-                        <div class="headings"></div>
-                        <div class="headings"></div>
-                        <div class="headings"></div>
-                        <div class="headings"></div>
+                        <div class="headings">
+                            <h4 style="font-family: sans-serif;font-weight: 10;color: gray;">Template by W3.css</h4>
+                        </div>
+                        <div class="headings three">
+                            <a href=""><i class="fa-solid fa-table-cells-large" style="color: green;">   PORTFOLIO</i></a>
+                        </div>
+                        <div class="headings three">
+                            <a href=""><i class="fa-solid fa-user" style="color: black;">  ABOUT</i></a>
+                        </div>
+                        <div class="headings three">
+                            <a href=""><i class="fa-solid fa-envelope" style="color: black;">  CONTACT</i></a>
+                        </div>
+                        <div class="headings">
+                            <i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-snapchat"></i> <i class="fa-brands fa-pinterest-p"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="right"></div>
+        <div class="right">
+            <div class="port-right">
+                <h1 style="font-family: sans-serif;letter-spacing: 1%;font-size: 40px;font-weight: 100;padding-top: 10px;padding-left: 15px;">My Portfolio</h1>
+            </div>
+            <div class="port-a">
+                <div class="a">
+                    <h4 style="font-family: sans-serif;font-weight: 10;font-size: 18px;">Filter:</h4>
+                </div>
+                <div class="b">
+                    <a style="color: white;text-decoration: none;font-family: sans-serif;" href="">ALL</a>
+                </div>
+                <div class="c">
+                    <a style="color: black;text-decoration: none;font-size: 18px;font-family: sans-serif;" href=""><i class="fa-regular fa-gem"></i>  Design</a>
+                </div>
+                <div class="d">
+                    <a style="color: black;font-family: sans-serif;font-size: 18px;text-decoration: none;" href=""><i class="fa-solid fa-image"></i>  Photos</a>
+                </div>
+                <div class="e">
+                    <a style="color: black;text-decoration: none;font-family: sans-serif;font-size: 18px;" href=""><i class="fa-solid fa-map-pin"></i>  Art</a>
+                </div>
+            </div>
+            <div class="HR">
+                <hr style="width: 95%;height: 20%;color: gray;background-color: rgb(160, 158, 158);font-weight: 10;">
+            </div>
+            <div class="abc">
+                <div class="xyz">
+                    <div class="abc1">
+                        <img src="	https://www.w3schools.com/w3images/mountains.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="abc2">
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;padding-top: 20px;">Lorem Ipsum</h3>
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;font-weight: 100;padding-top: 20px;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h3>
+                    </div>
+                </div>
+                <div class="xyz">
+                    <div class="abc1">
+                        <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="abc2">
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;padding-top: 20px;" >Lorem Ipsum</h3>
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;font-weight: 100;padding-top: 20px;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h3>
+
+                    </div>
+                </div>
+                <div class="xyz">
+                    <div class="abc1">
+                        <img src="https://www.w3schools.com/w3images/nature.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="abc2">
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;padding-top: 20px;" >Lorem Ipsum</h3>
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;font-weight: 100;padding-top: 20px;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h3>
+                    </div>
+                </div>
+                <div class="xyz">
+                    <div class="abc1">
+                        <img src="https://www.w3schools.com/w3images/p1.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="abc2">
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;padding-top: 20px;" >Lorem Ipsum</h3>
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;font-weight: 100;padding-top: 20px;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h3>
+                    </div>
+                </div>
+                <div class="xyz">
+                    <div class="abc1">
+                        <img src="https://www.w3schools.com/w3images/p2.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="abc2">
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;padding-top: 20px;" >Lorem Ipsum</h3>
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;font-weight: 100;padding-top: 20px;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h3>
+                    </div>
+                </div>
+                <div class="xyz">
+                    <div class="abc1">
+                        <img src="https://www.w3schools.com/w3images/p3.jpg" alt="" height="100%" width="100% n">
+                    </div>
+                    <div class="abc2">
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;padding-top: 20px;" >Lorem Ipsum</h3>
+                        <h3 style="font-family: sans-serif;margin-left: 10px;font-size: 18px;font-weight: 100;padding-top: 20px ;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="page-link">
+                <div class="page-no">
+                    <div class="link-box">
+                        <a href="" class="tab"><i class="fa-solid fa-angles-left"></i></a>
+                    </div>
+                    <div class="link-box">
+                        <a href="" class="tab"><i class="fa-solid fa-1"></i></a>
+                    </div>
+                    <div class="link-box">
+                        <a href="" class="tab"><i class="fa-solid fa-2"></i></a>
+                    </div>
+                    <div class="link-box">
+                        <a href="" class="tab"><i class="fa-solid fa-3"></i></a>
+                    </div>
+                    <div class="link-box">
+                        <a href="" class="tab"><i class="fa-solid fa-4"></i></a>
+                    </div>
+                    <div class="link-box">
+                        <a href="" class="tab"><i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-2">
+        <div class="photo-box">
+            <div class="photo1">
+                <img src="	https://www.w3schools.com/w3images/avatar_g.jpg" alt="" height="100%" width="100%">
+            </div>
+            <div class="photo2">
+                <img src="https://www.w3schools.com/w3images/me2.jpg" alt="" height="100%" width="100%">
+            </div>
+        </div>
+        <div class="content-box">
+            <div class="abt-heading">
+                <h3 style="font-family: sans-serif;font-weight: 400;letter-spacing: 1px;margin-left: 2%;margin-top: 1%;">About Me</h3>
+            </div>
+            <div class="content-heading">
+                <p style="font-family: sans-serif;letter-spacing: 1px;line-height: 20px;margin-left: 2%;margin-top: 1%;font-weight: 20;">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                </p>
+            </div>
+        </div>
+        <div class="tech_skill">
+            <div class="skill">
+                <div class="t-s"><h3 style="font-family: sans-serif;font-weight: 400;letter-spacing: 1px;">Technical Skills</h3></div>
+            </div>
+            <div class="skills">
+                <div class="range">
+                    <div class="header">
+                        <h3 style="font-family: sans-serif;font-weight: 20;font-size: 100%;letter-spacing: 1px;">Photography</h3>
+                    </div>
+                <div class="rng">
+                    <div class="range1" style="height: 100%; width: 95%;background-color: #616161;color: white;display: flex;justify-content: center;align-items: center;font-family: sans-serif;">95%</div>
+                
+                <div class="range2" style="height: 100%; width: 6%;background-color: #9E9E9E"></div>
+                </div>
+            </div>
+            </div>
+            <div class="skills">
+                <div class="range">
+                    <div class="header">
+                        <h3 style="font-family: sans-serif;font-weight: 20;letter-spacing: 1px;font-size: 100%;">Web Design</h3>
+                    </div>
+                <div class="rng">
+                    <div class="range1" style="height: 100%; width: 85%;background-color: #616161;color: white;display: flex;justify-content: center;align-items: center;font-family: sans-serif;">85%</div>
+                    <div class="range2" style="height: 100%; width: 16%;background-color: #9E9E9E"></div>
+                </div>
+            </div>
+            </div>
+            <div class="skills">
+                <div class="range">
+                    <div class="header">
+                        <h3 style="font-family: sans-serif;font-weight: 20;letter-spacing: 1px;font-size: 100%;">Photoshop</h3>
+                    </div>
+                <div class="rng">
+                    <div class="range1" style="height: 100%; width: 80%;background-color: #616161;color: white;display: flex;justify-content: center;align-items: center;font-family: sans-serif;">80%</div>
+                    <div class="range2" style="height: 100%; width: 20%;background-color: #9E9E9E"></div>
+                </div>
+            </div>
+            </div>
+            <div class="skills">
+                <div class="Download" style="font-family: sans-serif;width: 25%;height: 60%;background-color: #616161;color: white;display: flex;justify-content: center;align-items: center;font-family: sans-serif;"><i class="fa-solid fa-download"></i>    Download Resume</div>
+            </div>
+        </div>
+        <div class="page-3"></div>
+    </div>
+    
     </div>
 </body>
 </html>
