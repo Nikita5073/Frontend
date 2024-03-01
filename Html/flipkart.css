@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+.header{
+    width: 100vw;
+    /* border: 1px solid black; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: white;
+}
+.logo{
+    width: 12vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.input{
+    width: 35vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.list{
+    width: 45vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-1{
+    /* width: 8vw; */
+    /* border: 1px solid black; */
+    padding: 8px;
+}
+.sell-box{
+    /* border: 1px solid black; */
+    margin-left: 2px;
+}
+#sellbox-class{
+    /* border: 1px solid black; */
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 30vw;
+    height: 5vh;
+    font-size: large;
+    background-color: rgb(241, 241, 241);
+    border: none;
+}
+.input-in{
+    /* border: 1px solid black; */
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+.header-2{
+    width: 100vw;
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: 5.8%;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+.grocery-box{
+    width: 98vw;
+    border: 1px solid black;
+    /* padding: 5px; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.product-box{
+    width: 9vw;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.img-box{
+    width: 8vw;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+.name-box{
+    width: 8vw;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 0.7rem;
+}
+ #home-box{
+    width: 13vw;
+} 
+#name1-box{
+    width: 12vw;
+    padding: 10px;
+}
+#image1-box{
+    margin-left: 30px;
+    margin-top: 6px;
+}
+#toy-box{
+    width: 15vw;
+}
+#wheeler-box{
+    width: 11vw;
+}
+#toys1-box{
+    width: 14vw;
+    margin-top: 7px;
+}
+.header-3{
+    width: 100vw;
+    border: 1px solid black;
+    padding: 1%;
+    background-color: #F5F5F5;
+}
+.animation-box{
+    border: 1px solid black;
+}
+.product-img-box{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F5F5F5;
+}
+.images-box{
+    width: 25vw;
+    border: 1px solid black;
+}
+#images-box2{
+    width: 18vw;
+    border: 1px solid black;
+}
+.shoes-box{
+    border: 1px solid black;
+    padding: 1%;
+    background-color: white;
+}
+.deal-box{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.hrx-shoe-box{
+    padding: 1%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-deal-box{
+    width: 70vw;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+}
+.button-box{
+    border: 1px solid black;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diff-box{
+    width: 18vw;
+    border: 1px solid gray;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 1%;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+.newdiv-box{
+    transition: all;
+    padding-top: 5%;
+}
+.newdiv-box:hover{
+    transform: scale(1.1);
+}
+.mobile-box{
+    border: 1px solid black;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+ /* .inner-box{
+    border: 1px solid black;
+     padding: 1%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}  */
+.mobile-boxess{
+    border: 1px solid black;
+    margin: 7px 5px;
+    cursor: pointer;
+}
