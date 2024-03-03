@@ -62,7 +62,6 @@ input{
 }
 .header-2{
     width: 100vw;
-    border: 1px solid black;
     padding: 10px;
     padding-top: 5.8%;
     display: flex;
@@ -71,7 +70,6 @@ input{
 }
 .grocery-box{
     width: 98vw;
-    border: 1px solid black;
     /* padding: 5px; */
     display: flex;
     justify-content: space-evenly;
@@ -79,20 +77,17 @@ input{
 }
 .product-box{
     width: 9vw;
-    border: 1px solid black;
     padding: 5px;
     margin-bottom: 2px;
 }
 .img-box{
     width: 8vw;
     padding: 10px;
-    border: 1px solid black;
     margin-top: 5px;
 }
 .name-box{
     width: 8vw;
     padding: 10px;
-    border: 1px solid black;
     font-size: 0.7rem;
 }
  #home-box{
@@ -116,92 +111,301 @@ input{
     width: 14vw;
     margin-top: 7px;
 }
-.header-3{
+.container{
     width: 100vw;
-    border: 1px solid black;
-    padding: 1%;
+    /* border: 1px solid black; */
     background-color: #F5F5F5;
+    /* position: absolute; */
 }
 .animation-box{
-    border: 1px solid black;
+    padding: 10px;
 }
-.product-img-box{
-    border: 1px solid black;
+ .product-img-box{
     display: flex;
-    justify-content: space-evenly;
+    padding: 8px;
     background-color: #F5F5F5;
 }
 .images-box{
     width: 25vw;
-    border: 1px solid black;
-}
-#images-box2{
-    width: 18vw;
-    border: 1px solid black;
+    margin:  3px;
+} 
+.images-box img{
+    width: 24vw;
 }
 .shoes-box{
-    border: 1px solid black;
-    padding: 1%;
-    background-color: white;
+    padding: 10px;
+    /* background-color: white; */
 }
-.deal-box{
-    border: 1px solid black;
+.top-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .hrx-shoe-box{
-    padding: 1%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-evenly;
-}
-.top-deal-box{
-    width: 70vw;
-    border: 1px solid black;
-    font-size: 1.2rem;
-    font-family: Arial, sans-serif;
-}
-.button-box{
-    border: 1px solid black;
-    width: 10vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.diff-box{
-    width: 18vw;
-    border: 1px solid gray;
-    font-size: 0.8rem;
-    font-family: sans-serif;
-    text-align: center;
-    margin: 1%;
+    padding: 5px 20px;
+    border: 1px solid rgb(233, 231, 231);
+    margin: 20px;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 3px;
-
-}
-.newdiv-box{
     transition: all;
-    padding-top: 5%;
 }
-.newdiv-box:hover{
+.hrx-shoe-box :hover{
     transform: scale(1.1);
 }
-.mobile-box{
-    border: 1px solid black;
-    display: flex; 
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1%;
+.diff-box p{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px;
+
 }
- /* .inner-box{
-    border: 1px solid black;
-     padding: 1%; 
+.mobile-box{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}  */
-.mobile-boxess{
-    border: 1px solid black;
-    margin: 7px 5px;
+    padding: 10px;
+    justify-content: center;
+}
+.mobile-boxess img{
+   width: 30vw;
+   margin: 10px;
+}
+.fashion-box{
+    padding: 10px;
+}
+.fashion-in{
+    display: flex;
+}
+.six-boxes{
+    padding: 5px 20px;
+    margin: 20px;
+    border-radius: 5px;
     cursor: pointer;
+    transition: all;
+    border: 1px solid gray;
+    width: 30vw;
+}
+.six-boxes :hover{
+    transform: scale(1.1);
+}
+.mid-box{
+    padding: 10px;
+    display: flex;
+}
+.mid-box1{
+    width: 30vw;
+    cursor: pointer;
+    background-color: white;
+    margin: 8px;
+}
+.mid-box2{
+    width: 70vw;
+    margin: 8px;
+}
+.mid-box2 img{
+    width: 100%;
+}
+.middle-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.middle-box1{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 8px;
+}
+.mid-img{
+    width: 13vw;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.Led-box{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+.led-box-1 img{
+    width: 30vw;
+    margin: 6px 6px;
+}
+.debit-box{
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: #F5F5F5;
+}
+.debit-in{
+     /* border: 1px solid black; */
+     display: flex;
+     text-align: center;
+     background-color: white;
+}
+.bank-box{
+    width: 25vw;
+    /* border: 1px solid black; */
+    margin: 0px 8px;
+}
+.colourful-box{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+}
+.colourful-box1{
+    width: 32vw;
+    cursor: pointer;
+    background-color: white;
+    margin: 8px;
+    /* border: 1px solid black; */
+}
+.colourful-box2{
+    width: 32vw;
+    cursor: pointer;
+    background-color: white;
+    margin: 8px;
+    /* border: 1px solid black; */
+}
+.colourful-box3{
+    width: 32vw;
+    cursor: pointer;
+    background-color: white;
+    margin: 8px;
+    /* border: 1px solid black; */
+}
+.colourful-box3 img{
+    width: 100%;
+}
+.color-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    margin-top: 8%;
+}
+.color-box1{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 8px;
+}
+.color-img{
+    width: 13vw;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.cloth-box{
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: white;
+}
+.cloth-in{
+    display: flex;
+    background-color: white;
+}
+.cloth-diff-box{
+    /* border: 1px solid black; */
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all;
+    border: 1px solid gray;
+    width: 30vw;
+    margin: 8px;
+    background-color: white;
+}
+.cloth-diff-box:hover{
+    transform: scale(1.1);
+}
+.Accessories-box{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+.Access-box{
+    width: 30vw;
+    margin: 6px 6px;
+    /* border: 1px solid black; */
+}
+.Access-box img{
+    width: 100%;
+    height: 100%;
+}
+.mat-box{
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: white;
+}
+.mat-box-in{
+    display: flex;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+.mat-img{
+    /* border: 1px solid black; */
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all;
+    border: 1px solid gray;
+    width: 25vw;
+    margin: 8px;
+    background-color: white;
+}
+.mat-img:hover{
+    transform: scale(1.1);
+}
+#Acc-box{
+    width: 30vw;
+    margin: 6px 6px;
+    /* border: 1px solid black; */
+}
+.other-box{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    background-color: #F5F5F5;
+}
+.other-box1{
+    width: 30vw;
+    cursor: pointer;
+    background-color: white;
+    margin: 8px;
+    /* border: 1px solid black; */
+}
+.oth-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    margin-top: 8%;
+}
+.next-box1{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 8px;
+}
+.next-img{
+    width: 13vw;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.other-box2{
+    width: 70%;
+    cursor: pointer;
+    background-color: white;
+    margin: 8px;
+    /* border: 1px solid black; */
+}
+.other-box2 img{
+    width: 100%;
 }

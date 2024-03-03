@@ -1,52 +1,486 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Flipkart Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
-        body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-
-.header {
-    width: 100%;
-    height: 60px;
-    background-color: #f5f5f5;
+html{
+    font-size: 20px;
+}
+.header{
+    width: 100vw;
+    /* border: 1px solid black; */
+    padding: 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 12vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.input{
+    width: 35vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.list{
+    width: 45vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-1{
+    /* width: 8vw; */
+    /* border: 1px solid black; */
+    padding: 8px;
+}
+.sell-box{
+    /* border: 1px solid black; */
+    margin-left: 2px;
+}
+#sellbox-class{
+    /* border: 1px solid black; */
+    padding: 8px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 0 20px;
+}
+input{
+    width: 30vw;
+    height: 5vh;
+    font-size: large;
+    background-color: rgb(241, 241, 241);
+    border: none;
+}
+.input-in{
+    /* border: 1px solid black; */
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+.header-2{
+    width: 100vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+.grocery-box{
+    width: 98vw;
+    /* border: 1px solid black; */
+    /* padding: 5px; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.product-box{
+    width: 9vw;
+    /* border: 1px solid black; */
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.img-box{
+    width: 8vw;
+    padding: 10px;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+}
+.name-box{
+    width: 8vw;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+ #home-box{
+    width: 13vw;
+}
+#name1-box{
+    width: 12vw;
+    padding: 10px;
+    margin-top: 21px;
+}
+#image1-box{
+    margin-left: 30px;
+    margin-top: 6px;
+}
+#toy-box{
+    width: 15vw;
+}
+#wheeler-box{
+    width: 11vw;
+}
+#toys1-box{
+    width: 14vw;
+    margin-top: 20px;
+}
+.container{
+    width: 98vw;
+
+}
+.animation{
+    padding: 10px;
+}
+.start4img{
+    display: flex;
+    padding: 8px;
+
+}
+.simg{
+    /* padding: 10px; */
+    width: 25vw;
+    /* border: 1px solid red; */
+    margin: 3px;
+
+}
+.animation img{
+    width: 100vw;
+}
+.simg img{
+    width: 25vw;
+}
+.top{
+    padding: 10px;
+    /* border: 1px solid black; */
+
+}
+.topbox{
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    /* padding: 10px; */
+    /* width: 35vw; */
+    padding: 5px 20px;
+    border: 1px solid grey;
+    margin: 20px;
+
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
+.image p{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px;
 }
-
-.nav-items {
+.image h2{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.pic9{
+    /* border: 1px solid red; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo img{
+    width: 30vw;
+    margin: 10px;
+}
+.fashain{
+    padding: 10px;
+    border: 1px solid rgb(49, 30, 218);
+}
+.six{
+    padding: 1px solid red;
+    padding: 10px;
+    width: 30vw;
+}
+.ff{
     display: flex;
 }
 
-.nav-item {
-    padding: 0 10px;
-}
-
-.nav-item:not(:last-child) {
-    border-right: 1px solid #ccc;
-}
     </style>
 </head>
 <body>
     <div class="header">
-        <div class="logo">Flipkart</div>
-        <div class="nav-items">
-            <div class="nav-item">Explore Plus</div>
-            <div class="nav-item">Q Search for Products, Brands and More</div>
-            <div class="nav-item">Login</div>
-            <div class="nav-item">Cart</div>
-            <div class="nav-item">Become a Seller</div>
+        <div class="logo">
+         <img src="filipcaedimg.svg" alt="">
         </div>
+        <div class="input">
+         <div class="input-in">
+             <i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Search for Products, Brands and More">
+         </div>
+        </div>
+        <div class="list">
+         <div class="logo-1">
+             <a style="font-size: 1rem;font-family: sans-serif;text-decoration: none;color: black;" href=""><i class="fa-regular fa-user"></i> Login</a>
+         </div>
+         <div class="logo-1">
+             <a style="font-size: 1rem;font-family: sans-serif;text-decoration: none;color: black;" href=""><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+         </div>
+         <div class="logo-1" id="sellbox-class">
+             <a href=""><img src="Store-9eeae2.svg" alt=""></a>
+             <div class="sell-box">
+                 <a style="font-size: 1rem;font-family: sans-serif;text-decoration: none;color: black;" href="">Become a Seller</a>
+             </div>
+         </div>
+         <div class="logo-1">
+             <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+         </div>
+ 
+        </div>
+ 
+     </div>
+     <div class="header-2">
+         <div class="grocery-box">
+             <div class="product-box">
+                 <div class="img-box">
+                     <a href=""><img src="sarafimg.png" alt="" height="40%" width="90%"></a>
+                 </div>
+                 <div class="name-box">
+                     <a style="font-family: sans-serif;text-decoration: none;color: black;font-size: 0.9rem;font-weight: bold;" href="">Grocery</a>
+                 </div>
+             </div>
+              <div class="product-box">
+                 <div class="img-box">
+                     <a href=""><img src="moblieimg.png" alt="" height="50%" width="90%"></a>
+                 </div>
+                 <div class="name-box">
+                     <a style="font-family: sans-serif;text-decoration: none;color: black;font-size: 0.9rem;font-weight: bold;" href="">Mobiles</a>
+                 </div>
+             </div>
+             <div class="product-box">
+                 <div class="img-box">
+                     <a href=""><img src="coupleimg.png" alt="" height="50%" width="90%"></a>
+                 </div>
+                 <div class="name-box">
+                     <a style="font-family: sans-serif;text-decoration: none;color: black;font-size: 0.9rem;font-weight: bold;" href="">Fashion</a>
+                 </div>
+             </div>
+             <div class="product-box">
+                 <div class="img-box">
+                     <a href=""><img src="leptopimg.png" alt="" height="50%" width="90%"></a>
+                 </div>
+                 <div class="name-box">
+                     <a style="font-family: sans-serif;text-decoration: none;color: black;font-size: 0.9rem;font-weight: bold;" href="">Electronics</a>
+                 </div>
+             </div>
+             <div class="product-box" id="home-box">
+                 <div class="img-box" id="image1-box">
+                     <a href=""><img src="chairimg.jpg" alt="" height="50%" width="65.5%"></a>
+                 </div>
+                 <div class="name-box" id="name1-box">
+                     <a style="font-family: sans-serif;text-decoration: none;color: black;font-size: 0.9rem;font-weight: bold;" href="">Home & Furniture</a>
+                 </div>
+             </div>
+             <div class="product-box">
+                 <div class="img-box">
+                 <a href=""><img src="cardimg.jpg" alt="" height="50%" width="90%"></a>
+                 </div>
+                 <div class="name-box">
+                     <a style="font-family: sans-serif;text-decoration: none;color: black;font-size: 0.9rem;font-weight: bold;" href="">Appliances</a>
+                 </div>
+             </div>
+             <div class="product-box">
+                 <div class="img-box">
+                     <a href=""><img src="airplaneimg.png" alt="" height="50%" width="90%"></a>
+                 </div>
+                 <div class="name-box">
+                     <a style="font-family: sans-serif;text-decoration: none;color: black;font-size: 0.9rem;font-weight: bold;" href="">Travel</a>
+                 </div>
+             </div>
+             <div class="product-box" id="toy-box">
+                 <div class="img-box" id="image1-box">
+                     <a href=""><img src="teddyimg.png" alt="" height="50%" width="70%"></a>
+                 </div>
+                 <div class="name-box" id="toys1-box">
+                     <a style="font-family: sans-serif;text-decoration: none;color: black;font-size: 0.9rem;font-weight: bold;" href="">Beauty, Toys & More</a>
+                 </div>
+             </div>
+             <div class="product-box" id="home-box">
+                 <div class="img-box" id="image1-box">
+                     <a href=""><img src="bikeimg.png" alt="" height="50%" width="70%"></a>
+                 </div>
+                 <div class="name-box" id="name1-box">
+                     <a style="font-family: sans-serif;text-decoration: none;color: black;font-size: 0.9rem;font-weight: bold;" href="">Two Wheelers</a>
+                 </div>
+             </div>
+ 
+         </div>
+     </div>
+ 
+    <div class="container">
+     <div class="animation">
+         <img src="animationimg.webp" alt="">
+     </div>
+     <div class="start4img">
+ 
+     <div class="simg">
+         <img src="coloerimg.jpg" alt="">
+     </div>
+     <div class="simg">
+         <img src="fashainimg.jpg" alt="">
+     </div>
+     <div class="simg">
+         <img src="sampooimg.jpg" alt="">
+     </div>
+     <div class="simg">
+         <img src="fashainimg.jpg" alt="">
+     </div>
+     </div>
+ 
+     <div class="top">
+         <h2>Top Deals</h2>
+     <div class="topbox">
+ 
+         <div class="box">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+ 
+         <div class="box">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+         <div class="box">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+         <div class="box">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+         <div class="box">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+         <div class="box">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+     </div>
+     </div>
+ 
+   <div class="pic9">
+     <div class="photo">
+         <img src="phoneimg.jpg" alt="">
+     </div>
+     <div class="photo">
+         <img src="mo.img" alt="">
+     </div>
+     <div class="photo">
+         <img src="phoneimg.jpg" alt="">
+     </div>
+     <div class="photo">
+         <img src="mo.img" alt="">
+     </div>
+     <div class="photo">
+         <img src="phoneimg.jpg" alt="">
+     </div>
+     <div class="photo">
+         <img src="phoneimg.jpg" alt="">
+     </div>
+     <div class="photo">
+         <img src="phoneimg.jpg" alt="">
+     </div>
+     <div class="photo">
+         <img src="phoneimg.jpg" alt="">
+     </div>
+     <div class="photo">
+         <img src="phoneimg.jpg" alt="">
+     </div>
+   </div>
+ 
+   <div class="fashain">
+     <h2 style="font-family: sans-serif;">Fashion Best Sellers</h2>
+ 
+     <div class="ff">
+         <div class="six">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+         <div class="six">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+         <div class="six">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+         <div class="six">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+         <div class="six">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+         <div class="six">
+             <div class="image">
+                 <img src="girlpic.jpeg" alt="">
+             </div>
+             <div class="image">
+                 <p>tokyo girl tope</p>
+                 <h2>Min.50-80% Off</h2>
+             </div>
+         </div>
+     </div>
+ 
+ 
+   </div>
+ 
     </div>
 </body>
 </html>
