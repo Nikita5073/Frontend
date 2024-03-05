@@ -119,11 +119,13 @@ input{
 }
 .animation-box{
     padding: 10px;
+    cursor: pointer;
 }
  .product-img-box{
     display: flex;
     padding: 8px;
     background-color: #F5F5F5;
+    cursor: pointer;
 }
 .images-box{
     width: 25vw;
