@@ -14,6 +14,7 @@ html{
     justify-content: space-evenly;
     position: fixed;
     background-color: white;
+    z-index: 1;
 }
 .logo{
     width: 12vw;
@@ -79,6 +80,30 @@ input{
     width: 9vw;
     padding: 5px;
     margin-bottom: 2px;
+    position: relative;
+}
+.longlist{
+    padding: 8px;
+    width: 15vw;
+    background-color: white;
+    margin-top: 30px;
+    position: absolute;
+    display: none;
+    line-height: 40px;
+    box-shadow: 0px 0px 5px gray;
+
+}
+.product-box:hover .longlist{
+    display: block;
+}
+.longlist ul{
+    
+    
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    padding-left: 10px;
+   
 }
 .img-box{
     width: 8vw;
@@ -410,4 +435,13 @@ input{
 }
 .other-box2 img{
     width: 100%;
+}
+.container-2{
+border: 1px solid black;
+width: 100vw;
+}
+.page-3{
+margin: 8px;
+border: 1px solid black;
+color: rgb(78, 78, 78);
 }
