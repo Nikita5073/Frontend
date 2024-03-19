@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technology Articles</title>
+</head>
+<body>
+
+<select id="techSelector" onchange="updateArticle()">
+  <option value="react">React</option>
+  <option value="django">Django</option>
+  <option value="angular">Angular</option>
+</select>
+
+<div id="articleContainer">
+  <!-- Initially empty, will be filled with the selected article content -->
+</div>
+
+<script>
+  // Define articles for each technology
+  const articles = {
+    react: "React is a JavaScript library for building user interfaces...",
+    django: "Django is a high-level Python web framework that encourages rapid development...",
+    angular: "Angular is a TypeScript-based open-source web application framework..."
+  };
+
+  // Function to update the displayed article based on the selected option
+  function updateArticle() {
+    // Get the selected technology
+    const selectedTech = document.getElementById("techSelector").value;
+
+    // Get the corresponding article content
+    const articleContent = articles[selectedTech];
+
+    // Update the article container with the selected article content
+    document.getElementById("articleContainer").textContent = articleContent;
+  }
+
+  // Initially update the article when the page loads
+  updateArticle();
+</script>
+
+</body>
+</html>
