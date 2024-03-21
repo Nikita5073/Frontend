@@ -84,7 +84,14 @@
             let a=document.getElementById("inp1").value;
             let b=document.getElementById("inp2").value;
 
-            document.getElementById(b).style.backgroundColor = a;
+            let c=document.querySelectorAll(".in-boxes");
+            for(let i in c)
+            {
+                c[i].style = `background-color: transparent`;
+            }
+            c[b-1].style = `background-color: ${a}`;
+
+            // document.getElementById(b).style.backgroundColor = a;
         }
     </script>
 </body>
