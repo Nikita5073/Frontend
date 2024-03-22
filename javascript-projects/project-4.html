@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-4</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            height: 80vh;
+            width: 59.5%;
+            border: 5px solid black;
+            margin-top: 25px;
+        }
+        .box1{
+            height: 20vh;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box2{
+            height: 60vh;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: space-evenly; */
+        }
+        input{
+            margin: 5px;
+            font-size: 20px;
+            height: 5vh;
+            width: 35vh;
+            text-align: center;
+            border: 2px solid black;
+        }
+        .in-boxes{
+            border: 5px solid black;
+            height: 25vh;
+            width: 12vw;
+            margin: 20px;
+            margin-left: 25px;
+        }
+        button{
+            font-size: 20px;
+            height: 5vh;
+            width: 15vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <input type="text" placeholder="Enter Your Color Name" id="inp1">
+            <input type="text" placeholder="Select Your Div" id="inp2">
+            <button id="but">Submit</button>
+        </div>
+        <div class="box2">
+            <div class="in-boxes" id="1"></div>
+            <div class="in-boxes" id="2"></div>
+            <div class="in-boxes" id="3"></div>
+            <div class="in-boxes" id="4"></div>
+            <div class="in-boxes" id="5"></div>
+            <div class="in-boxes" id="6"></div>
+            <div class="in-boxes" id="7"></div>
+            <div class="in-boxes" id="8"></div>
+        </div>
+    </div>
+    <script>
+        
+        document.getElementById("but").onclick = function(){
+
+            let a=document.getElementById("inp1").value;
+            let b=document.getElementById("inp2").value;
+
+            let c=document.querySelectorAll(".in-boxes");
+            for(let i in c)
+            {
+                c[i].style = `background-color: transparent`;
+            }
+            c[b-1].style = `background-color: ${a}`;
+
+            // document.getElementById(b).style.backgroundColor = a;
+        }
+    </script>
+</body>
+</html>
