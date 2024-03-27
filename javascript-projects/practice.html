@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Input Text to Button Click</title>
+</head>
+<body>
+
+<input type="text" id="inputText" placeholder="Enter your text">
+<button onclick="showText()">Show Text</button>
+
+<script>
+function showText() {
+    // Input tag se value ko nikalna
+    const input = document.getElementById('inputText').value;
+    // Output ko update karna
+    document.body.innerHTML += `<span>${input}</span>`;
+    // Input ko clear karna
+    document.getElementById('inputText').value = '';
+}
+</script>
+
+</body>
+</html>
