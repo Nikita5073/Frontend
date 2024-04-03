@@ -6,9 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text">
-    <button>click</button>
+    <!-- <input type="text">
+    <button>click</button> -->
     <script>
+        //push method
+        //pop method
+        //shift method
+        //unshift method
+
+
         // let x = [1,2,3,"nikita","vishal",8,10.5];
 
         // x.push("nikki");//it insert new value on last index
@@ -29,15 +35,42 @@
         // console.log(x);
 
 
-        let x = [];
+        // let x = [];
         
-        document.querySelector("button").onclick = function(){
-            let a = document.querySelector("input").value;
-            document.querySelector("input").value="";
-            document.querySelector("input").focus();
-            x.push(a);
-            console.log(x);
-        }
+        // document.querySelector("button").onclick = function(){
+        //     let a = document.querySelector("input").value;
+        //     document.querySelector("input").value="";
+        //     document.querySelector("input").focus();
+        //     x.push(a);
+        //     console.log(x);
+        // }
+
+        //slice method
+        // let x = [10,20,30,40,50,60,70,80,90,100];
+        // let y = x.slice(2,6);
+        // console.log("original array :",x)
+        // console.log("slice array :",y)
+         //slice(start,end)
+        // console.log(x.slice(-7,-3))
+
+        //splice method
+        // x.splice(4,2,"nikita","vishal");
+        // console.log(x)
+        
+        //map method
+        let x = [10,20,30,40,50,60,70,80,90,100];
+        // let y = x.map((item) =>{
+        //     return item;
+        // })
+        // console.log(y)
+        // let y = x.map((item) =>{
+        //     return item*2;
+        // })
+        // console.log(y)
+
+        let y = x.map((item) =>item*2)
+        console.log(y)
+
     </script>
 </body>
 </html>
