@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            height: 120vh;
+            width: 75vw;
+            /* border: 2px solid black; */
+            border-radius: 15px;
+            background-color: rgb(248, 58, 105);;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+        }
+        .box{
+            height: 85%;
+            width: 40%;
+            /* border: 2px solid black; */
+            border-radius: 20px 20px 0px 0px;
+            background-color: white;
+        }
+        .b-1{
+            height: 36%;
+            width: 100%;
+            /* border: 2px solid black; */
+        }
+        .b-2{
+            height: 64%;
+            width: 100%;
+            /* border: 2px solid black; */
+        }
+        .b-in1{
+            height: 25%;
+            width: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+        }
+        .b-in2{
+            height: 75%;
+            width: 100%;
+            /* border: 2px solid red; */
+        }
+        .img-box{
+            height: 65%;
+            width: 90%;
+            /* border: 2px solid black; */
+            margin-left: 5%;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            background-image: url(leaf-img.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .circle-box{
+            height: 115%;
+            width: 36%;
+            border: 10px solid white;
+            margin-top: 13%;
+            border-radius: 50%;
+        }
+        .v-1{
+            height: 100%;
+            width: 20%;
+            /* border: 2px solid black; */
+        }
+        .v-2{
+            height: 100%;
+            width: 10%;
+            /* border: 2px solid black; */
+        }
+        .v-3{
+            height: 100%;
+            width: 50%;
+            /* border: 2px solid black; */
+        } 
+        .v-4{
+            height: 100%;
+            width: 20%;
+            /* border: 2px solid black; */
+        }
+        .v-2 i{
+            font-size: 1.3rem;
+            margin-top: 55%;
+            font-weight: bold;
+        }
+        .v-3 i{
+            font-size: 2.3rem;
+            margin-top: 8%;
+            margin-left: 80%;
+        }
+        .v-4 i{
+            font-size: 2.4rem;
+            margin-top: 18%;
+            margin-left: 10%;
+        }
+        .circle-box img{
+            border-radius: 50%;
+        }
+        .l-1{
+            height: 15%;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+        .l-2{
+            height: 15%;
+            width: 100%;
+            /* border: 2px solid black; */
+        }
+        .l-3{
+            height: 20%;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+        }
+        .l-4{
+            height: 15%;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+        }
+        .l-5{
+            height: 10%;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+        .l-6{
+            height: 10%;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+        .l-7{
+            height: 10%;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+        .l-in1{
+            height: 100%;
+            width: 75%;
+            /* border: 2px solid black; */
+        }
+        .l-in2{
+            height: 100%;
+            width: 25%;
+            /* border: 2px solid black; */
+        }
+        .l-in2 i{
+            font-size: 1.8rem;
+            margin-top: 16%;
+            margin-left: 10%;
+            color: rgb(46, 165, 212);
+            border-radius: 50px;
+        }
+        .r-1{
+            height: 100%;
+            width: 25%;
+            /* border: 2px solid black */
+        }
+        .pink-box{
+            height: 90%;
+            width: 93%;
+            /* border: 2px solid black; */
+            border-radius: 20px;
+            display: flex;
+            background-color:  rgb(252, 52, 102);
+        }
+        .p-1{
+            height: 100%;
+            width: 20%;
+            /* border: 2px solid black; */
+        }
+        .p-2{
+            height: 100%;
+            width: 80%;
+            /* border: 2px solid black; */
+        }
+        .last-box1{
+            height: 100%;
+            width: 12%;
+            /* border: 2px solid black; */
+        }
+        .last-box2{
+            height: 100%;
+            width: 88%;
+            /* border: 2px solid black; */
+        }
+        .last-box1 i{
+            font-size: 2rem;
+            color: rgb(150, 23, 150);
+            margin-left: 38%;
+            margin-top: 15%;
+        }
+        #brief i{
+            font-size: 2rem;
+            color: brown;
+            margin-left: 38%;
+            margin-top: 15%;
+        }
+        #sky i{
+            font-size: 2rem;
+            color:blue;
+            margin-left: 38%;
+            margin-top: 15%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="b-1">
+                <div class="b-in1">
+                    <div class="v-1">
+                        <h1 style="font-size: 2.9rem;font-family:'Courier New', Courier, monospace;text-align: center;margin-left: 18%;">vc</h1><br>
+                        <h1 style="font-size: 2.9rem;font-family:'Courier New', Courier, monospace;text-align: center;line-height:1%;">.ru</h1>
+                    </div>
+                    <div class="v-2">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="v-3">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="v-4">
+                        <i class="fa-regular fa-bell"></i>
+                    </div>
+                </div>
+                <div class="b-in2">
+                    <div class="img-box">
+                        <div class="circle-box">
+                            <img src="women pic.jpg" alt="" height="100%" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-2">
+                <div class="l-1">
+                    <div class="l-in1">
+                        <h1 style="font-family: sans-serif;font-size: 2.6rem;font-weight: bolder;text-align: end;margin-top: 3%;">Devon Simmons</h1>
+                    </div>
+                    <div class="l-in2">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+                <div class="l-2">
+                    <p style="font-family: sans-serif;font-size: 1.5rem;text-align: center;margin-top: 3px;font-weight: bold;">I'm interested in environmental issues,</p><br>
+                    <p style="font-family: sans-serif;font-size: 1.5rem;text-align: center;line-height: 5px;font-weight: bold;">trying to make the world better & more beautiful</p>
+                </div>
+                <div class="l-3">
+                    <div class="r-1">
+                        <h1 style="font-family: sans-serif;font-size: 2.5rem;text-align: center;margin-top: 7%;color: rgb(55, 194, 55);">540</h1><br>
+                        <p style="font-family: sans-serif;font-size: 1.5rem;font-weight: bold;text-align: center;line-height: 5%;">Rating</p>
+                    </div>
+                    <div class="r-1">
+                        <h1 style="font-family: sans-serif;font-size: 2.5rem;text-align: center;margin-top: 7%;">700</h1><br>
+                        <p style="font-family: sans-serif;font-size: 1.5rem;font-weight: bold;text-align: center;line-height: 5%;">Followers</p>
+                    </div>
+                    <div class="r-1">
+                        <h1 style="font-family: sans-serif;font-size: 2.5rem;text-align: center;margin-top: 7%;">142</h1><br>
+                        <p style="font-family: sans-serif;font-size: 1.5rem;font-weight: bold;text-align: center;line-height: 5%;">Posts</p>
+                    </div>
+                </div>
+                <div class="l-4">
+                    <div class="pink-box">
+                        <div class="p-1">
+                            <p style="font-family: sans-serif;font-size: 4rem;color: white;font-weight:lighter;margin-left: 10%;">+</p>
+                        </div>
+                        <div class="p-2">
+                            <p style="font-family: sans-serif;font-size: 2rem;color: white;font-weight:lighter;margin-left: 20%;margin-top: 5%;">Subscribe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-5">
+                    <div class="last-box1">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="last-box2">
+                        <p style="font-family: sans-serif;font-size: 1.6rem;margin-left: 3%;margin-top: 2%;font-weight: 600;">Lives in Moscow</p>
+                    </div>
+                </div>
+                <div class="l-6">
+                    <div class="last-box1" id="brief">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <div class="last-box2">
+                        <p style="font-family: sans-serif;font-size: 1.6rem;margin-left: 3%;margin-top: 2%;font-weight: 600;">Work as Product Designer at cmtt.ru</p>
+                    </div>
+                </div>
+                <div class="l-7">
+                    <div class="last-box1" id="sky">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <div class="last-box2">
+                        <p style="font-family: sans-serif;font-size: 1.6rem;margin-left: 3%;margin-top: 2%;font-weight: 600;">Skills CSS, HTML, UX Design & 7 others</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
